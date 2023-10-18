@@ -7,7 +7,8 @@ import {Productos} from "../models/productos";
   providedIn: 'root'
 })
 export class ProductosService {
-  url = 'http://192.168.1.161:3000/api/productos';
+  // url = 'http://192.168.1.161:3000/api/productos';
+  url = 'https://test-node-1.onrender.com/api/productos';
   constructor(private http: HttpClient) {
   }
 
