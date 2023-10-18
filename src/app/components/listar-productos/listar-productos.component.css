@@ -1,0 +1,37 @@
+.group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.txt-primario {
+  height: 30px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: white;
+  color: #0d0c22;
+  transition: .3s ease;
+}
+
+.txt-primario::placeholder {
+  color: white;
+}
+
+.txt-primario:focus, txt-primario:hover {
+  outline: none;
+  border-color: rgba(63, 81, 181, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(63, 81, 181 / 10%);
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: black;
+  width: 1rem;
+  height: 1rem;
+}
